@@ -1,0 +1,29 @@
+{
+  "HeaderText": "Klaviyo Go Links",
+  "MuiTheme": {
+    "typography": {
+      "useNextVariants": true,
+      "fontFamily": "Roboto, Arial, Helvetica, sans-serif"
+    },
+    "palette": {
+      "primary": {
+        "light": "#6cc9ff",
+        "main": "#2b98d3",
+        "dark": "#006aa1",
+        "contrastText": "#FFFFFF"
+      },
+      "secondary": {
+        "light": "#e6edf6",
+        "main": "#b4bbc3",
+        "dark": "#848b93",
+        "contrastText": "#FFFFFF"
+      },
+      "error": {
+        "light": "#FFEBE8",
+        "main": "#D0331F",
+        "dark": "#AD2A1A",
+        "contrastText": "#FFFFFF"
+      }
+    }
+  }
+}

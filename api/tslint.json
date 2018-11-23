@@ -1,0 +1,21 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "object-literal-sort-keys": false,
+        "jsx-no-lambda": false,
+        "readonly-keyword": [true, "ignore-local"],
+        "prettier": true
+    },
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "linterOptions": {
+        "exclude": [
+            "src/migration/**",
+            "node_modules/**"
+        ]
+    }
+}
